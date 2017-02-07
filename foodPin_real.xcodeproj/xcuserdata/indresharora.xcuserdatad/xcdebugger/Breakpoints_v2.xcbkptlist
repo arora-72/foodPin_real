@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sharinganTableViewCell.swift"
+            timestampString = "508088417.756832"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "sharinganTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "foodPin_real.sharinganTableViewCell.locationLabel1.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "foodPin_real"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indresharora/Documents/ios%20development/BasicStartingApps/foodPin_real/sharinganTableViewCell.swift"
+                  timestampString = "508088417.822096"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "foodPin_real.sharinganTableViewCell.locationLabel1.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "foodPin_real"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indresharora/Documents/ios%20development/BasicStartingApps/foodPin_real/sharinganTableViewCell.swift"
+                  timestampString = "508088417.830856"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "foodPin_real.sharinganTableViewCell.init (style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; foodPin_real.sharinganTableViewCell"
+                  moduleName = "foodPin_real"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indresharora/Documents/ios%20development/BasicStartingApps/foodPin_real/sharinganTableViewCell.swift"
+                  timestampString = "508088417.83374"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "foodPin_real.sharinganTableViewCell.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;foodPin_real.sharinganTableViewCell&gt;"
+                  moduleName = "foodPin_real"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indresharora/Documents/ios%20development/BasicStartingApps/foodPin_real/sharinganTableViewCell.swift"
+                  timestampString = "508088417.837345"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "51">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "foodPin_real/RestaurantTableViewController.swift"
+            timestampString = "508159636.677375"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "foodPin_real.RestaurantTableViewController.tableView (__ObjC.UITableView, didSelectRowAt : Foundation.IndexPath) -&gt; ()"
+                  moduleName = "foodPin_real"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indresharora/Documents/ios%20development/BasicStartingApps/foodPin_real/foodPin_real/RestaurantTableViewController.swift"
+                  timestampString = "508159636.896578"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "1543">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "foodPin_real.RestaurantTableViewController.(tableView (__ObjC.UITableView, didSelectRowAt : Foundation.IndexPath) -&gt; ()).(closure #2)"
+                  moduleName = "foodPin_real"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indresharora/Documents/ios%20development/BasicStartingApps/foodPin_real/foodPin_real/RestaurantTableViewController.swift"
+                  timestampString = "508159636.899747"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
