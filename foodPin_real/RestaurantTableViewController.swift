@@ -9,6 +9,9 @@
 import UIKit
 
 var imagePicked = String()
+var namepicked = String()
+var typePicked = String()
+var locationTyped = String()
 
 class RestaurantTableViewController: UITableViewController {
     
@@ -18,15 +21,25 @@ class RestaurantTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showRestaurantDetail" {
             if let indexPath = tableView.indexPathForSelectedRow {
-                let destinationController = segue.destination as!
-                restaurantDetailViewController
-                destinationController.restaurantImage =
-                    restaurantImages[indexPath.row]
+                let destinationController = segue.destination as! restaurantDetailViewController
+                
+                //passing strings in the window
+                destinationController.restaurantImage = restaurantImages[indexPath.row]
+                destinationController.restaurantName = restaurantNames[indexPath.row]
+                destinationController.restaurantLocation = restaurantLabel[indexPath.row]
+                destinationController.restaurantType = restaurantType[indexPath.row]
+                
             }
         }
 
     }
+    
+    // updating accesory view
     var restaurantIsVisited = [Bool](repeating: false, count:21)
+    
+//    var restaurantIsVisited = [false, false, false, false, false, false, false,false, false, false, false, false, false, false, false, false, false, false,false, false, false]
+
+    
 
 
     var restaurantNames = ["Cafe Deadend", "Homei", "Teakha", "Cafe Loisl", "PetiteOyster", "For Kee Restaurant", "Po'Atelier", "Bourke Street Bakery", "Haigh'sChocolate", "Palomino Espresso", "Upstate", "Traif", "Graham Avenue Meats",
@@ -51,12 +64,14 @@ class RestaurantTableViewController: UITableViewController {
         return true
     }
 
-
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+    
+        
+    
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -93,6 +108,8 @@ class RestaurantTableViewController: UITableViewController {
         cell.locationLabel.text=restaurantLabel[indexPath.row]
         cell.typeLabel.text=restaurantType[indexPath.row]
         
+        // for updating accesory view
+        cell.accessoryType = restaurantIsVisited[indexPath.row] ? .checkmark : .none
         return cell
     }
     
@@ -124,11 +141,9 @@ class RestaurantTableViewController: UITableViewController {
             style: UIAlertActionStyle.default, handler: callActionHandler)
         optionMenu.addAction(callAction)
             
-            var restaurantIsVisited = [false, false, false, false, false, false, false,
-                                       false, false, false, false, false, false, false, false, false, false, false,
-                                       false, false, false]
-
+           
         //code for i have been here
+            
         
         let isVisitedAction = UIAlertAction(title: "i have been here", style: .default, handler: {
             
@@ -142,12 +157,7 @@ class RestaurantTableViewController: UITableViewController {
             cell?.tintColor = UIColor.white
             
         })
-                    optionMenu.addAction(isVisitedAction)
-            
-            performSegue(withIdentifier: "showRestaurantDetail", sender: self)
-            imagePicked = restaurantImages[indexPath.row]
-    
-            // to rectify the bug
+            optionMenu.addAction(isVisitedAction)
             
  
     }

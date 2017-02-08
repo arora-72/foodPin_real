@@ -87,46 +87,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "foodPin_real/RestaurantTableViewController.swift"
-            timestampString = "508159636.677375"
+            filePath = "foodPin_real/restaurantDetailViewController.swift"
+            timestampString = "508223167.070895"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
-            landmarkName = "tableView(_:didSelectRowAt:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "foodPin_real.RestaurantTableViewController.tableView (__ObjC.UITableView, didSelectRowAt : Foundation.IndexPath) -&gt; ()"
-                  moduleName = "foodPin_real"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/indresharora/Documents/ios%20development/BasicStartingApps/foodPin_real/foodPin_real/RestaurantTableViewController.swift"
-                  timestampString = "508159636.896578"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "130"
-                  endingLineNumber = "130"
-                  offsetFromSymbolStart = "1543">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "foodPin_real.RestaurantTableViewController.(tableView (__ObjC.UITableView, didSelectRowAt : Foundation.IndexPath) -&gt; ()).(closure #2)"
-                  moduleName = "foodPin_real"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/indresharora/Documents/ios%20development/BasicStartingApps/foodPin_real/foodPin_real/RestaurantTableViewController.swift"
-                  timestampString = "508159636.899747"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "134"
-                  endingLineNumber = "134"
-                  offsetFromSymbolStart = "23">
-               </Location>
-            </Locations>
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "restaurantDetailViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
