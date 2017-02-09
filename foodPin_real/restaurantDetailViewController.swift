@@ -15,6 +15,18 @@ class restaurantDetailViewController: UIViewController {
     @IBOutlet var restaurantTypeLabel:UILabel!
     @IBOutlet var restaurantLocationLabel:UILabel!
     
+
+    @IBAction func actionButton(_ sender: Any) {
+        
+        
+        
+    }
+    @IBAction func showMessage(){
+        let alertController = UIAlertController(title: "UNDER PROGRESS", message: "WILL UPDATE SOON", preferredStyle: UIAlertControllerStyle.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.destructive, handler: nil))
+        present(alertController, animated: true, completion: nil)
+    }
+
     var restaurantImage:String!
     var restaurantName : String!
     var restaurantType :String!

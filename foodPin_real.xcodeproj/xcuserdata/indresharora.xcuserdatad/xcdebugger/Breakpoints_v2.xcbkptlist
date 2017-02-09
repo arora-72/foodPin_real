@@ -88,11 +88,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "foodPin_real/restaurantDetailViewController.swift"
-            timestampString = "508223167.070895"
+            timestampString = "508352155.467777"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "restaurantDetailViewController"
             landmarkType = "3">
          </BreakpointContent>

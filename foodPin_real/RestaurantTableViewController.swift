@@ -34,6 +34,7 @@ class RestaurantTableViewController: UITableViewController {
 
     }
     
+    
     // updating accesory view
     var restaurantIsVisited = [Bool](repeating: false, count:21)
     
@@ -159,8 +160,40 @@ class RestaurantTableViewController: UITableViewController {
         })
             optionMenu.addAction(isVisitedAction)
             
- 
     }
+    
+    // creating swipe view for the table row having sharing functions 
+    
+    override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+        
+        var shareAction = UITableViewRowAction(style: UITableViewRowActionStyle.default, title:"share",handler:{
+            (action:UITableViewRowAction!,indexPath: IndexPath!) -> Void in
+            
+            let shareMenu = UIAlertController(title: "nil", message: "share using", preferredStyle: .actionSheet)
+            
+            let twitterAction = (UIAlertAction(title: "twitter", style: UIAlertActionStyle.default, handler: nil))
+            let facebook = (UIAlertAction(title: "facebook", style: UIAlertActionStyle.default, handler: nil))
+            let emailAction = (UIAlertAction(title: "email", style: UIAlertActionStyle.default, handler: nil))
+            let cancelAction = (UIAlertAction(title:"cancel", style:UIAlertActionStyle.cancel,handler: nil ))
+            
+            shareMenu.addAction(twitterAction)
+            shareMenu.addAction(facebook)
+            shareMenu.addAction(emailAction)
+            shareMenu.addAction(cancelAction)
+            
+            self.present(shareMenu,animated:true,completion: nil)
+            
+        })
+        // the following line of code returns array telling tableview to create the buttons while swiping by the user
+        return [shareAction]
+    }
+    
+//    message to show 
+    
+        
+    // button for creating action
+    
+    
 
     /*
     // Override to support conditional editing of the table view.
