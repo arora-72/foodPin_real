@@ -99,6 +99,7 @@ class RestaurantTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+       
         
         //let cellIdentifier = cell
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! RestaurantTableViewCell
@@ -108,10 +109,17 @@ class RestaurantTableViewController: UITableViewController {
         cell.thumbnailImageView.image = UIImage(named: restaurantImages[indexPath.row])
         cell.locationLabel.text=restaurantLabel[indexPath.row]
         cell.typeLabel.text=restaurantType[indexPath.row]
+        cell.thumbnailImageView.layer.cornerRadius = cell.thumbnailImageView.frame.size.width / 2
+        cell.thumbnailImageView.clipsToBounds = true
         
         // for updating accesory view
         cell.accessoryType = restaurantIsVisited[indexPath.row] ? .checkmark : .none
         return cell
+        
+        
+  
+        
+        
     }
     
     //creating menu for each row
